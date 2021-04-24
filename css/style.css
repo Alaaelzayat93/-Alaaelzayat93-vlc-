@@ -1,0 +1,269 @@
+/*general*/
+
+*,*:after,*:before
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    
+
+}
+/* .owl-stage,.owl-item {
+    width: 100% !important;
+} */
+.container{
+    overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*.scrolled{
+	background-color: #2598ce !important;
+	color: #fff;
+	width: 100%;
+
+}*/
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    height:auto;
+    text-align: right;
+    
+
+}
+.clearfix{
+    clear:both;
+}
+h1{
+    text-align: center;
+    color:#2598ce;
+    margin:10px;
+}
+h2{
+    font-size: 26px;
+    color:#fff;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color:#2598ce;
+    margin:10px;
+    
+}
+h5{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+
+.check{
+    color:red;
+    float: right;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+span{
+    font-size: 24px;
+}
+.ques{
+    text-align: center;
+}
+.circle{
+    border-radius: 50%;
+}
+.all{
+    background: #2598ce;
+color: #fff;
+margin: 20px  auto;
+display: block;
+width: 11%;
+padding: 15px;
+text-align: center;
+border-radius: 17%;
+text-decoration: none;
+
+}
+.btn-primary{
+    cursor: pointer;
+    margin: auto !important;
+    display: block;
+    width: 107px;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+
+}
+/* The overlay effect - lays on top of the container and over the image */
+.overlay2 {
+  
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgb(255, 99, 141);/* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+    background: #323C3F;
+ 
+    width: 100%;
+    direction: rtl;
+    z-index: 3;
+    height: 80px;
+}
+.navbar-nav {
+    margin-right: auto;
+}
+.navbar-absolute{
+  position: absolute;
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar .navbar-brand img{
+    width:100px;
+}
+@media screen and(max-width:768px){
+    .navbar .navbar-brand{
+         font-size:24px;
+    }
+}
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: cairo;
+}
+.nav-item dropdown{
+    color: #fff;
+}
+
+.navbar .navbar-nav .active .nav-link,
+.navbar .navbar-nav .nav-link:hover{
+    color: #2598CE;
+    border-bottom: 2px solid #fff;
+}
+.navbar ul li i{
+    color: #fff;
+    line-height: 3;
+    margin-left: 20px;
+}
+form#search-input-box{
+    display: none;
+    position: absolute;
+}
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+form#search-input-box input[type=text]:focus {
+  width: 100%;
+}
+
+/*********header***********/
+/*home sections*/
+
+/*offers*/
+.owl-carousel .owl-item img{
+    width:100% !important;
+}
+
+.carousel-item{
+    padding-top: 50px;
+}
+/*services*/
+.services{
+    background-color: #232937;
+    padding:20px 20px
+}
+/*footer*/
+.footer{
+    background-color: #30393C;
+    padding:50px 10px;
+}
+.footer img{
+    max-width: 100%;
+    margin-top:20px
+}
+.footer i{
+    
+    font-size: 22px;
+}
+.foot{
+    width: 50% !important;
+}
+/*end offers*/
+
+
+ img{
+    max-width: 100% !important;
+}
+.facebook{
+    color:blue;
+}
+.twitter{
+    color:cyan;
+}
+.yotube{
+    color:red
+}
+/*accordion*/
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: right;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  /*business card*/
+  .business{
+      color:#000;
+      padding-top:58px;
+  }
+  .para-business{
+      text-align: center;
+  }
