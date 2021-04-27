@@ -39,9 +39,10 @@ body{
     clear:both;
 }
 h1{
-    text-align: center;
+    text-align: center !important;
     color:#2598ce;
     margin:10px;
+    margin: auto;
 }
 h2{
     font-size: 26px;
@@ -60,7 +61,8 @@ h5{
 p{
     font-size: 25px;
     padding-bottom: 20px;
-    
+    color: #000;
+    text-align: center;
 }
 
 .check{
@@ -218,6 +220,7 @@ form#search-input-box input[type=text]:focus {
 
  img{
     max-width: 100% !important;
+    margin-bottom: 10px !important;
 }
 .facebook{
     color:blue;
@@ -260,10 +263,10 @@ form#search-input-box input[type=text]:focus {
   }
   
   /*business card*/
-  .business{
+  .business,.business2,.business3{
       color:#000;
       padding-top:58px;
   }
-  .para-business{
+  .para-business,.para-business2{
       text-align: center;
   }
